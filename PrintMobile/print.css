@@ -29,38 +29,13 @@ body{
 }
 
 #navigation{
-	background-color:Gray;
     display: none;
-    width: 100%;
 }
 
-#navigation ul{
-	list-style:none;
-	overflow:hidden;
-}
-
-#navigation a{
-		
-	border: 2px inset #CCCCCC;
-	background-color: #0000FF;
-	line-height: 250%;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 17px;
-	text-decoration:none;
-
-}
-
-#navigation a:hover{
-	color: #FFFF00;
-	border: 2px outset #CCCCCC;
-
-}
 
 #maincontent
 {
     background-repeat:repeat-y;
-    display: none;
     width: 100%;
 }
 
@@ -70,7 +45,6 @@ body{
     width: 100%;
     content: attr(href);
     font-size: 90%;
-    width: 100%;
 }
 
 #rightcolumn{
@@ -87,7 +61,7 @@ body{
 }
 
 #footer{
-    background-color:Navy;
+    background-color:rgb(255, 255, 255);
     color:#FFFFFF;
     text-align:center;
     width: 100%;
@@ -95,7 +69,7 @@ body{
 
 h1
 {
-    color:Navy;
+    color:rgb(255, 255, 255);
     font-size:xx-large;
     line-height:100%;
     font-family:Tahoma;
@@ -104,7 +78,7 @@ h1
 
 h2
 {
-    color:Navy;
+    color:rgb(255, 255, 255);
     font-size:x-large;
     line-height:100%;
     font-family:Tahoma;
@@ -113,7 +87,7 @@ h2
 
 h3
 {
-    color:Navy;
+    color:rgb(255, 255, 255);
     font-size:large;
     line-height:100%;
     font-family:Tahoma;
@@ -123,7 +97,6 @@ h3
 {
 	
     text-align:right;
-    float:right;
     color:#FFFFFF;
     width: 250px;
     font-size: small;
@@ -137,28 +110,11 @@ h3
 .moveleft
 {
     width:260px;
-    float:left;
     text-align:left;
 }
 
 .moveright
 {
-    float:right;
     width:260px;
     text-align:right;
-}
-
-.imageleft
-{
-	float:left;
-}
-
-.imageright
-{
-	float:right;
-}
-
-.logoleft{
-	float:left;
-	width: 150px;
 }
